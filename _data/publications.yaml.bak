@@ -1,0 +1,16 @@
+papers:
+
+  - title: "Filling Conversation Ellipsis for Better Social Dialog Understanding"
+    authors: "<b>Xiyuan Zhang</b>, Chengxi Li, Dian Yu, Samuel Davidson, Zhou Yu"
+    venue: "Accepted to AAAI 2020"
+    paper_pdf: "/assets/publications/1911.10776.pdf"
+    image: "/assets/publications/1911.10776.jpg"
+    url: "publications/1911.10776.html"
+
+  - title: "Neural Embedding for Nearest Neighbor Search Under Edit Distance"
+#  - title: "Submitted to ICLR 2020"
+    authors: "<b>Xiyuan Zhang</b>, Yang Yuan, Pitor Indyk"
+    venue: "Submitted to ICLR 2020"
+    paper_pdf: "/assets/publications/neural_embeddings_for_nearest_neighbor_search_under_edit_distance.pdf"
+    image: "/assets/publications/embed.jpg"
+    selected: y

@@ -1,0 +1,182 @@
+---
+layout: default
+title: Home
+---
+<!-- ========== BIO ========== -->
+<div class="docs-section" id="bio">
+  <h4>Bio</h4>
+  
+  <p>
+    I am a first-year Ph.D. student at <a href="https://cse.ucsd.edu/">CSE</a>, <a href="https://ucsd.edu">UCSD</a>, advised by Professor <a href="http://mesl.ucsd.edu/gupta/index.html">Rajesh Gupta</a> and Professor <a href="https://shangjingbo1226.github.io">Jingbo Shang</a>. My research interest lies in the intersection of IoT and data mining. </br>
+    
+    I received my B.S. degree in CS from Zhejiang University with honors. At ZJU, I work with Professor <a href="https://www.vipazoo.cn/people/songmingli.html">Mingli Song</a> and Professor <a href="http://www.cad.zju.edu.cn/home/weiweixu/weiweixu_en.htm">Weiwei Xu</a> on model transferability. 
+    2019 spring, I worked with Professor <a href="https://people.csail.mit.edu/indyk/">Piotr Indyk</a> and Dr. <a href="http://nas.iiis.tsinghua.edu.cn/~yuanyang/index.html">Yang Yuan</a> at MIT on machine learning augmented algorithms. 
+    2019 summer, I worked with Professor <a href="http://zhouyu.cs.ucdavis.edu">Zhou Yu</a> at UC Davis on dialog systems.  
+  </p>
+
+</div>
+
+
+<!-- ========== PUBLICATIONS ========== -->
+<div class="docs-section" id="publications">
+  <h4>Publications</h4>
+  
+  <div class="tab-content">
+     {% for paper in site.data.publications.papers %}
+        <div class="paper">
+        	
+           <div class="paper-img">
+           	 {% if paper.image %}
+           	   <a href="{{ paper.url }}">
+           	    <img src="{{ paper.image }}" align="left" border=0 position="absolute" width="260" height="90" hspace=20/>
+               </a>
+           	 {% endif %}
+           </div>
+           
+          <p class="title"><b>{{ paper.title }}</b></p>
+          <p>{{ paper.authors }}</p>
+          <p><i>{{ paper.venue }}</i></p>
+                     
+           <div class="paper-buttons">
+             {% if paper.paper_pdf %}
+               <a class="button" href="{{ paper.paper_pdf | prepend: site.baseurl }}" target="_blank">Paper</a>
+             {% endif %}
+
+             {% if paper.website %}
+               <a class="button" href="{{ paper.website }}" target="_blank">Website</a>
+             {% endif %}
+
+             {% if paper.code %}
+               <a class="button" href="{{ paper.code }}" target="_blank">Code</a>
+             {% endif %}
+
+             {% if paper.poster %}
+               <a class="button" href="{{ paper.poster | prepend: site.baseurl }}" target="_blank">Poster</a>
+             {% endif %}
+
+             {% if paper.slide %}
+               <a class="button" href="{{ paper.slide | prepend: site.baseurl }}" target="_blank">Slide</a>
+             {% endif %}
+
+             {% if paper.video %}
+               <a class="button" href="{{ paper.video }}" target="_blank">Video</a>
+             {% endif %}
+             
+           </div>
+        </div>
+     {% endfor %}
+
+  </div>
+</div>
+
+<!-- ========== PROJECTS ========== -->
+<div class="docs-section" id="projects">
+  <h4>Projects</h4>
+
+  <div class="tab-content">
+     {% for paper in site.data.projects.projects %}
+        <div class="paper">
+        	
+           <div class="paper-img">
+           	 {% if paper.image %}
+           	   <!--a href="{{ paper.url }}" -->
+           	    <img src="{{ paper.image }}" align="left" border=0 position="absolute" width="260" height="120" hspace=20/>
+               <!--/a -->
+           	 {% endif %}
+           </div>
+           
+          <p class="title"><b>{{ paper.title }}</b></p>
+
+          <p>{{ paper.content1 }}</p>
+          <p>{{ paper.content2 }}</p>
+                               
+           <div class="paper-buttons">
+             {% if paper.paper_pdf %}
+               <a class="button" href="{{ paper.paper_pdf | prepend: site.baseurl }}" target="_blank">Paper</a>
+             {% endif %}
+
+             {% if paper.slides %}
+               <a class="button" href="{{ paper.slides | prepend: site.baseurl }}" target="_blank">Slides</a>
+             {% endif %}
+
+             {% if paper.poster %}
+               <a class="button" href="{{ paper.poster | prepend: site.baseurl }}" target="_blank">Poster</a>
+             {% endif %}
+
+             {% if paper.video %}
+               <a class="button" href="{{ paper.video }}" target="_blank">Demo</a>
+             {% endif %}
+            
+             {% if paper.code %}
+               <a class="button" href="{{ paper.code }}" target="_blank">Code</a>
+             {% endif %}
+           </div>
+
+           <br/>
+
+        </div>
+     {% endfor %}
+
+  </div>  
+  <!--div class="tab-content">	
+      {% for project in site.data.projects.projects %}
+          <div class="project">
+          	
+            <!--div class="project-img">
+           	 {% if project.image %}
+           	   <img src="{{ project.image }}" align="left" border=0 position="absolute" width="260" height="120" hspace=20/>
+           	 {% endif %}
+            </div>--      
+
+
+                         	
+          <p class="title"><b>{{ project.title }}</b></p>
+          <p><i>{{ project.content }}</i></p>
+            
+          <div class="paper-buttons">        
+             {% if project.paper_pdf %}
+               <a class="button" href="{{ project.paper_pdf | prepend: site.baseurl }}" target="_blank">Paper</a>
+             {% endif %}
+                       	  
+             {% if project.video %}
+                <a class="button" href="{{ project.video | prepend: site.baseurl }}" target="_blank">Demo</a>
+             {% endif %}
+          </div>
+                        
+      {% endfor %}
+
+  </div>-->
+</div>
+
+<!-- ========== Awards ========== -->
+<div class="docs-section" id="awards">
+  <h4>Awards</h4>
+  
+  <p>
+  Outstanding Graduate of Zhejiang Province <br/>
+  Outstanding Graduate of Zhejiang University <br/>
+  Outstanding Undergraduate Thesis Award at ZJU <br/>
+  National Scholarship, Highest Honor of Undergraduates in China <br/>
+  First-Class Scholarship for Outstanding Students at ZJU<br/>
+  First-Class Scholarship for Academic Excellence at ZJU<br/>
+  Research and Innovation Excellence Scholarship<br/>
+  First Prize among 250+ teams in the Mathematical Contest in Modeling of ZJU, Leader  
+  </p>
+
+</div>
+
+<!-- ========== MISC ========== -->
+<div class="docs-section" id="MISC">
+  <h4>MISC</h4>
+  
+  <p>
+    I am a <a href="assets/misc/Tielu1.jpg">volunteer teacher</a> and a <a href="assets/misc/London.jpg">traveller</a>. I enjoy writing <a href="https://en.wikipedia.org/wiki/Chinese_calligraphy">Chinese calligraphy</a> since 6.  
+  </p>
+
+</div>
+
+
+  <h4>Acknowledgement</h4>
+    <p>
+      This website design is based on the template from <a href="https://github.com/msaveski/www_personal">Martin Saveski</a>.
+    </p>

@@ -1,0 +1,87 @@
+---
+layout: default
+title: Home
+---
+<!-- ========== BIO ========== -->
+<div class="docs-section" id="bio">
+  <h4>Bio</h4>
+  
+  <p>
+    I am a first-year Ph.D. student at <a href="https://cse.ucsd.edu/">CSE</a>, <a href="https://ucsd.edu">UCSD</a>, advised by Professor <a href="http://mesl.ucsd.edu/gupta/index.html">Rajesh Gupta</a>. My research interest lies in Internet of Things (IoT) and smart building technology.
+  </p>  
+  
+  <p>  
+    I received my B.S. degree in CS from <a href="http://www.zju.edu.cn/english/">Zhejiang University</a>.  
+  </p>
+
+</div>
+
+
+<!-- ========== PUBLICATIONS ========== -->
+<div class="docs-section" id="publications">
+  <h4>Publications</h4>
+  
+  <div class="tab-content">
+     {% for paper in site.data.publications.papers %}
+        <div class="paper">
+        	
+           <div class="paper-img">
+           	 {% if paper.image %}
+           	   <a href="{{ paper.url }}">
+           	    <img src="{{ paper.image }}" align="left" border=0 position="absolute" width="260" height="90" hspace=20/>
+               </a>
+           	 {% endif %}
+           </div>
+           
+          <p class="title"><b>{{ paper.title }}</b></p>
+          <p>{{ paper.authors }}</p>
+          <p><i>{{ paper.venue }}</i></p>
+                     
+           <div class="paper-buttons">
+             {% if paper.paper_pdf %}
+               <a class="button" href="{{ paper.paper_pdf | prepend: site.baseurl }}" target="_blank">Paper</a>
+             {% endif %}
+
+             {% if paper.website %}
+               <a class="button" href="{{ paper.website }}" target="_blank">Website</a>
+             {% endif %}
+
+             {% if paper.code %}
+               <a class="button" href="{{ paper.code }}" target="_blank">Code</a>
+             {% endif %}
+
+             {% if paper.poster %}
+               <a class="button" href="{{ paper.poster | prepend: site.baseurl }}" target="_blank">Poster</a>
+             {% endif %}
+
+             {% if paper.slide %}
+               <a class="button" href="{{ paper.slide | prepend: site.baseurl }}" target="_blank">Slide</a>
+             {% endif %}
+
+             {% if paper.video %}
+               <a class="button" href="{{ paper.video }}" target="_blank">Video</a>
+             {% endif %}
+             
+           </div>
+        </div>
+     {% endfor %}
+
+  </div>
+</div>
+
+
+<!-- ========== MISC ========== -->
+<div class="docs-section" id="MISC">
+  <h4>MISC</h4>
+  
+  <p>
+    I am a <a href="assets/misc/Tielu1.jpg">volunteer teacher</a> and a <a href="assets/misc/London.jpg">traveller</a>. I enjoy writing <a href="https://en.wikipedia.org/wiki/Chinese_calligraphy">Chinese calligraphy</a> since 6.  
+  </p>
+
+</div>
+
+
+  <h4>Acknowledgement</h4>
+    <p>
+      This website design is based on the template from <a href="https://github.com/msaveski/www_personal">Martin Saveski</a>.
+    </p>

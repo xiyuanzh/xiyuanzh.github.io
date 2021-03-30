@@ -1,0 +1,21 @@
+projects:
+
+  - title: "Few-shot Learning in Video Anomaly Detection"
+    content1: "Highest National Research Funding"
+    content2: "Undergraduate Research Training Program, ZJU"
+    image: "assets/projects/srtp.jpg"
+    #url: "projects/1911.10776.html"
+    video: "assets/projects/demo.mp4"
+    selected: y
+  
+  - title: "MyCPU: Computer Architecture (4.0/4.0)"
+    content1: "Design MIPS five-stage pipelined CPU supporting 32 instructions, interruption, memory hierarchy with multi-cycle memory and cache"
+    content2: "Develop FPGA game “Block Eating” supporting VGA, PS2"
+    image: "assets/projects/arch.jpg"
+    selected: y
+
+  - title: "MyOS: Operating System (4.0/4.0)"  
+    content1: "Design a kernel built on MIPS"
+    content2: "Design multi-level feedback process scheduling algorithm and shared memory for inter-process communication"
+    image: "assets/projects/os.jpg"
+

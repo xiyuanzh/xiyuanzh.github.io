@@ -1,0 +1,10 @@
+projects:
+
+  - title: "Few-shot Learning in Video Anomaly Detection"
+    content1: "Highest National Research Funding"
+    content2: "Undergraduate Research Training Program, ZJU"
+    image: "assets/projects/srtp.jpg"
+    url: "projects/1911.10776.html"
+    video: "assets/projects/demo.mp4"
+    selected: y
+
