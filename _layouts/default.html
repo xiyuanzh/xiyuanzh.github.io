@@ -68,8 +68,13 @@
             <p>{{ site.data.main_info.title1 }}</p>
             <p>{{ site.data.main_info.title2 }}</p>
             <p>{{ site.data.main_info.title3 }}</p>
-            <p>{{ site.data.main_info.email }}</p>
-            <!--<p>
+            <!--p>{{ site.data.main_info.email }}</p-->
+            
+            <<p>
+              <span onclick="window.open('{{ site.data.main_info.envelop }}')" style="cursor: pointer">
+                <i class="fa fa-envelop" aria-hidden="true"></i>
+              </span>
+
               <span onclick="window.open('{{ site.data.main_info.twitter }}')" style="cursor: pointer">
                 <i class="fa fa-twitter" aria-hidden="true"></i>
               </span>
@@ -81,7 +86,12 @@
               <span onclick="window.open('{{ site.data.main_info.github }}')" style="cursor: pointer">
                 <i class="fa fa-github" aria-hidden="true"></i>
               </span>
-            </p> -->
+
+              <span onclick="window.open('{{ site.data.main_info.scholar }}')" style="cursor: pointer">
+                <i class="fa fa-google" aria-hidden="true"></i>
+              </span>
+            </p>>
+
         </div>
       </div>
     </section>
@@ -93,7 +103,7 @@
           <li class="navbar-item"><a class="navbar-link" href={{ "/index.html#bio" | prepend: site.baseurl }}>Bio</a></li>
           <li class="navbar-item"><a class="navbar-link" href={{ "/index.html#publications" | prepend: site.baseurl }}>Publications</a></li>
           <!--li class="navbar-item"><a class="navbar-link" href={{ "/index.html#projects" | prepend: site.baseurl }}>Projects</a></li-->
-          <!--li class="navbar-item"><a class="navbar-link" href={{ "/index.html#awards" | prepend: site.baseurl }}>Awards</a></li-->
+          <li class="navbar-item"><a class="navbar-link" href={{ "/index.html#awards" | prepend: site.baseurl }}>Awards</a></li>
           <li class="navbar-item"><a class="navbar-link" href={{ "/index.html#MISC" | prepend: site.baseurl }}>MISC</a></li>
         </ul>
       </div>
