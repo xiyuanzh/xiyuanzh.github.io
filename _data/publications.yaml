@@ -1,5 +1,16 @@
 papers:
 
+  - title: "ESC-GAN: Extending Spatial Coverage of Physical Sensors"
+    authors: "<b>Xiyuan Zhang</b>, Ranak Roy Chowdhury, Jingbo Shang, Rajesh Gupta, Dezhi Hong"
+    venue: "WSDM 2022"
+    #paper_pdf: "/assets/publications/1911.10776.pdf"
+    #code: "https://gitlab.com/ucdavisnlp/filling-conversation-ellipsis"
+    #website: "projects/AAAI2020.html"
+    #poster: "/assets/publications/AAAI2020poster.pdf"
+    #slide: "/assets/publications/AAAI2020slide.pdf"
+    image: "/assets/publications/wsdm_model"
+    #url: "projects/AAAI2020.html"
+
   - title: "Filling Conversation Ellipsis for Better Social Dialog Understanding"
     authors: "<b>Xiyuan Zhang</b>, Chengxi Li, Dian Yu, Samuel Davidson, Zhou Yu"
     venue: "AAAI 2020"
