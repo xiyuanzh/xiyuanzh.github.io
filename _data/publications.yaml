@@ -8,7 +8,7 @@ papers:
     #website: "projects/AAAI2020.html"
     #poster: "/assets/publications/AAAI2020poster.pdf"
     #slide: "/assets/publications/AAAI2020slide.pdf"
-    image: "/assets/publications/wsdm_model.png"
+    image: "/assets/publications/wsdm_model.jpg"
     #url: "projects/AAAI2020.html"
 
   - title: "Filling Conversation Ellipsis for Better Social Dialog Understanding"
