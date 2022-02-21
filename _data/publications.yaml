@@ -2,7 +2,7 @@ papers:
 
   - title: "ESC-GAN: Extending Spatial Coverage of Physical Sensors"
     authors: "<b>Xiyuan Zhang</b>, Ranak Roy Chowdhury, Jingbo Shang, Rajesh Gupta, Dezhi Hong"
-    venue: "WSDM 2022"
+    venue: "WSDM 2022, <p style="color:red">oral</p>"
     paper_pdf: "/assets/publications/WSDM22_ESC_GAN.pdf"
     code: "https://github.com/xiyuanzh/ESC-GAN"
     poster: "/assets/publications/poster_ESC-GAN.pdf"
