@@ -6,7 +6,7 @@ papers:
     paper_pdf: "/assets/publications/WSDM22_ESC_GAN.pdf"
     code: "https://github.com/xiyuanzh/ESC-GAN"
     #poster: "/assets/publications/wsdm22_poster.pdf"
-    #slide: "/assets/publications/wsdm22_slide.pdf"
+    slide: "/assets/publications/wsdm22_slide.pdf"
     image: "/assets/publications/wsdm22_task.png"
     #website: "projects/AAAI2020.html"
     #url: "projects/AAAI2020.html"
