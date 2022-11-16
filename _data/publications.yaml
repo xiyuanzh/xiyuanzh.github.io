@@ -1,12 +1,11 @@
 papers:
 
   - title: "First De-Trend then Attend: Rethinking Attention for Time-Series Forecasting"
-    authors: "<b>Xiyuan Zhang</b>, Xiaoyong Jin, Karthick Gopalswamy, Gaurav Gupta, Youngsuk Park, Xingjian Shi, Hao Wang, Danielle C. Maddix, Yuyang Wang"
-    venue: "NeurIPS 2022 All Things Attention Woskshop"
-    image: "/assets/publications/TDformer.pdf"
+    authors: "<b>Xiyuan Zhang</b>, Xiaoyong Jin, Karthick Gopalswamy, Gaurav Gupta, Youngsuk Park, Xingjian Shi, Hao Wang, Danielle C. Maddix, Yuyang Wang. <i>NeurIPS 2022 All Things Attention Woskshop</i>"
+    image: "/assets/publications/TDformer.png"
 
   - title: "Task-Aware Reconstruction for Time-Series Transformer"
-    authors: "Ranak Roy Chowdhury, <b>Xiyuan Zhang</b>, Dezhi Hong, Rajesh Gupta, Jingbo Shang"
+    authors: "Ranak Roy Chowdhury, <b>Xiyuan Zhang</b>, Dezhi Hong, Rajesh Gupta, Jingbo Shang."
     venue: "KDD 2022"
     paper_pdf: "/assets/publications/TARNet_paper.pdf"
     code: "https://github.com/ranakroychowdhury/TARNet"
@@ -17,7 +16,7 @@ papers:
     #url: "projects/AAAI2020.html"
 
   - title: "ESC-GAN: Extending Spatial Coverage of Physical Sensors"
-    authors: "<b>Xiyuan Zhang</b>, Ranak Roy Chowdhury, Jingbo Shang, Rajesh Gupta, Dezhi Hong"
+    authors: "<b>Xiyuan Zhang</b>, Ranak Roy Chowdhury, Jingbo Shang, Rajesh Gupta, Dezhi Hong."
     venue: "WSDM 2022, oral"
     paper_pdf: "/assets/publications/WSDM22_ESC_GAN.pdf"
     code: "https://github.com/xiyuanzh/ESC-GAN"
@@ -28,7 +27,7 @@ papers:
     #url: "projects/AAAI2020.html"
 
   - title: "Filling Conversation Ellipsis for Better Social Dialog Understanding"
-    authors: "<b>Xiyuan Zhang</b>, Chengxi Li, Dian Yu, Samuel Davidson, Zhou Yu"
+    authors: "<b>Xiyuan Zhang</b>, Chengxi Li, Dian Yu, Samuel Davidson, Zhou Yu."
     venue: "AAAI 2020"
     paper_pdf: "/assets/publications/AAAI20_Dialog.pdf"
     code: "https://gitlab.com/ucdavisnlp/filling-conversation-ellipsis"
@@ -40,7 +39,7 @@ papers:
 
   - title: "Neural Embeddings for Nearest Neighbor Search Under Edit Distance"
 #  - title: "Submitted to ICLR 2020"
-    authors: "<b>Xiyuan Zhang</b>, Yang Yuan, Piotr Indyk"
+    authors: "<b>Xiyuan Zhang</b>, Yang Yuan, Piotr Indyk."
     venue: ""
     #paper_pdf: "/assets/publications/neural_embeddings_for_nearest_neighbor_search_under_edit_distance.pdf"
     image: "/assets/publications/embed.jpg"
