@@ -3,7 +3,7 @@ papers:
   - title: "First De-Trend then Attend: Rethinking Attention for Time-Series Forecasting"
     authors: "<b>Xiyuan Zhang</b>, Xiaoyong Jin, Karthick Gopalswamy, Gaurav Gupta, Youngsuk Park, Xingjian Shi, Hao Wang, Danielle C. Maddix, Yuyang Wang"
     venue: "NeurIPS 2022 All Things Attention Woskshop"
-    image: "/assets/publications/TDformer"
+    image: "/assets/publications/TDformer.pdf"
 
   - title: "Task-Aware Reconstruction for Time-Series Transformer"
     authors: "Ranak Roy Chowdhury, <b>Xiyuan Zhang</b>, Dezhi Hong, Rajesh Gupta, Jingbo Shang"
