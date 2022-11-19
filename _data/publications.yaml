@@ -1,9 +1,21 @@
 papers:
 
+  - title: "PrimeNet: Pre-training for Irregular Multivariate Time Series"
+    authors: "Ranak Roy Chowdhury, Jiacheng Li, <b>Xiyuan Zhang</b>, Dezhi Hong, Rajesh Gupta, Jingbo Shang"
+    venue: "AAAI 2023"
+    #paper_pdf: "/assets/publications/TARNet_paper.pdf"
+    #code: "https://github.com/ranakroychowdhury/TARNet"
+    #poster: "/assets/publications/TARNet_poster.pdf"
+    #slide: "/assets/publications/TARNet_slides.pdf"
+    image: "/assets/publications/PrimeNet.png"
+    #website: "projects/AAAI2020.html"
+    #url: "projects/AAAI2020.html"
+
   - title: "First De-Trend then Attend: Rethinking Attention for Time-Series Forecasting"
     authors: "<b>Xiyuan Zhang</b>, Xiaoyong Jin, Karthick Gopalswamy, Gaurav Gupta, Youngsuk Park, Xingjian Shi, Hao Wang, Danielle C. Maddix, Yuyang Wang"
     venue: "NeurIPS 2022 All Things Attention Woskshop"
     image: "/assets/publications/TDformer.png"
+    paper_pdf: "/assets/publications/TDformer_paper.pdf"
 
   - title: "Task-Aware Reconstruction for Time-Series Transformer"
     authors: "Ranak Roy Chowdhury, <b>Xiyuan Zhang</b>, Dezhi Hong, Rajesh Gupta, Jingbo Shang"
