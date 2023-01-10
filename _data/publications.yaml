@@ -15,7 +15,7 @@ papers:
   - title: "PrimeNet: Pre-training for Irregular Multivariate Time Series"
     authors: "Ranak Roy Chowdhury, Jiacheng Li, <b>Xiyuan Zhang</b>, Dezhi Hong, Rajesh Gupta, Jingbo Shang"
     venue: "AAAI 2023"
-    #paper_pdf: "/assets/publications/TARNet_paper.pdf"
+    paper_pdf: "/assets/publications/PrimeNet_paper.pdf"
     #code: "https://github.com/ranakroychowdhury/TARNet"
     #poster: "/assets/publications/TARNet_poster.pdf"
     #slide: "/assets/publications/TARNet_slides.pdf"
