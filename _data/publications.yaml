@@ -28,6 +28,8 @@ papers:
     venue: "NeurIPS 2022 All Things Attention Woskshop"
     image: "/assets/publications/TDformer.png"
     paper_pdf: "/assets/publications/TDformer_paper.pdf"
+    poster: "/assets/publications/TDformer_poster.pdf"
+    slide: "/assets/publications/TDformer_slides.pdf"
 
   - title: "Task-Aware Reconstruction for Time-Series Transformer"
     authors: "Ranak Roy Chowdhury, <b>Xiyuan Zhang</b>, Dezhi Hong, Rajesh Gupta, Jingbo Shang"
