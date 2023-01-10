@@ -1,5 +1,17 @@
 papers:
 
+  - title: "Federated Learning with Client-Exclusive Classes"
+    authors: "Jiayun Zhang, <b>Xiyuan Zhang</b>, Xinyang Zhang, Dezhi Hong, Rajesh Gupta, Jingbo Shang"
+    venue: "Preprint"
+    paper_pdf: "https://arxiv.org/pdf/2301.00489.pdf"
+    image: "/assets/publications/FL.pdf"
+  
+  - title: "Modeling Label Semantics Improves Activity Recognition"
+    authors: "<b>Xiyuan Zhang</b>, Ranak Roy Chowdhury, Dezhi Hong, Rajesh Gupta, Jingbo Shang"
+    venue: "Preprint"
+    paper_pdf: "https://arxiv.org/pdf/2301.03462.pdf"
+    image: "/assets/publications/SemanticHAR.pdf"
+
   - title: "PrimeNet: Pre-training for Irregular Multivariate Time Series"
     authors: "Ranak Roy Chowdhury, Jiacheng Li, <b>Xiyuan Zhang</b>, Dezhi Hong, Rajesh Gupta, Jingbo Shang"
     venue: "AAAI 2023"
