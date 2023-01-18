@@ -4,13 +4,13 @@ papers:
     authors: "Jiayun Zhang, <b>Xiyuan Zhang</b>, Xinyang Zhang, Dezhi Hong, Rajesh Gupta, Jingbo Shang"
     venue: "Preprint"
     paper_pdf: "https://arxiv.org/pdf/2301.00489.pdf"
-    image: "/assets/publications/FL.pdf"
+    image: "/assets/publications/FL.png"
   
   - title: "Modeling Label Semantics Improves Activity Recognition"
     authors: "<b>Xiyuan Zhang</b>, Ranak Roy Chowdhury, Dezhi Hong, Rajesh Gupta, Jingbo Shang"
     venue: "Preprint"
     paper_pdf: "https://arxiv.org/pdf/2301.03462.pdf"
-    image: "/assets/publications/SemanticHAR.pdf"
+    image: "/assets/publications/SemanticHAR.png"
   
   - title: "Async-HFL: Efficient and Robust Asynchronous Federated Learning in Hierarchical IoT Networks"
     authors: "Xiaofan Yu, Ludmila Cherkasova, Harsh Vardhan, Quanling Zhao, Emily Ekaireb, <b>Xiyuan Zhang</b>, Arya Mazumdar, Tajana Šimunić Rosing"
