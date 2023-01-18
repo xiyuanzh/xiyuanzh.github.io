@@ -11,6 +11,12 @@ papers:
     venue: "Preprint"
     paper_pdf: "https://arxiv.org/pdf/2301.03462.pdf"
     image: "/assets/publications/SemanticHAR.pdf"
+  
+  - title: "Async-HFL: Efficient and Robust Asynchronous Federated Learning in Hierarchical IoT Networks"
+    authors: "Xiaofan Yu, Ludmila Cherkasova, Harsh Vardhan, Quanling Zhao, Emily Ekaireb, <b>Xiyuan Zhang</b>, Arya Mazumdar, Tajana Šimunić Rosing"
+    venue: "Preprint"
+    paper_pdf: "https://arxiv.org/pdf/2301.06646.pdf"
+    image: "/assets/publications/AsyncFL.png"
 
   - title: "PrimeNet: Pre-training for Irregular Multivariate Time Series"
     authors: "Ranak Roy Chowdhury, Jiacheng Li, <b>Xiyuan Zhang</b>, Dezhi Hong, Rajesh Gupta, Jingbo Shang"
