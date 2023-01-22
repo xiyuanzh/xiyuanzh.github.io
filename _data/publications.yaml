@@ -14,7 +14,7 @@ papers:
   
   - title: "Async-HFL: Efficient and Robust Asynchronous Federated Learning in Hierarchical IoT Networks"
     authors: "Xiaofan Yu, Ludmila Cherkasova, Harsh Vardhan, Quanling Zhao, Emily Ekaireb, <b>Xiyuan Zhang</b>, Arya Mazumdar, Tajana Šimunić Rosing"
-    venue: "Preprint"
+    venue: "IoTDI 2023"
     paper_pdf: "https://arxiv.org/pdf/2301.06646.pdf"
     image: "/assets/publications/AsyncFL.png"
 
