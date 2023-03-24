@@ -16,7 +16,8 @@ papers:
     authors: "<b>Xiyuan Zhang</b>, Ranak Roy Chowdhury, Jingbo Shang, Rajesh Gupta, Dezhi Hong"
     venue: "ICASSP 2023"
     image: "/assets/publications/STAug.png"
-    paper_pdf: "/assets/publications/STAug_poster.pdf"
+    paper_pdf: "/assets/publications/STAug_paper.pdf"
+    poster: "/assets/publications/STAug_poster.pdf"
     
   - title: "Async-HFL: Efficient and Robust Asynchronous Federated Learning in Hierarchical IoT Networks"
     authors: "Xiaofan Yu, Ludmila Cherkasova, Harsh Vardhan, Quanling Zhao, Emily Ekaireb, <b>Xiyuan Zhang</b>, Arya Mazumdar, Tajana Šimunić Rosing"
