@@ -41,6 +41,7 @@ papers:
     venue: "NeurIPS 2022 All Things Attention Woskshop"
     image: "/assets/publications/TDformer.png"
     paper_pdf: "/assets/publications/TDformer_paper.pdf"
+    code: "https://github.com/xiyuanzh/gluonts/tree/tdformer/src/gluonts/nursery/TDformer"
     poster: "/assets/publications/TDformer_poster.pdf"
     slide: "/assets/publications/TDformer_slides.pdf"
 
