@@ -1,16 +1,16 @@
 papers:
 
-  - title: "Federated Learning with Client-Exclusive Classes"
-    authors: "Jiayun Zhang, <b>Xiyuan Zhang</b>, Xinyang Zhang, Dezhi Hong, Rajesh Gupta, Jingbo Shang"
-    venue: "Preprint"
-    paper_pdf: "https://arxiv.org/pdf/2301.00489.pdf"
-    image: "/assets/publications/FL.png"
-  
   - title: "Modeling Label Semantics Improves Activity Recognition"
     authors: "<b>Xiyuan Zhang</b>, Ranak Roy Chowdhury, Dezhi Hong, Rajesh Gupta, Jingbo Shang"
     venue: "Preprint"
     paper_pdf: "https://arxiv.org/pdf/2301.03462.pdf"
     image: "/assets/publications/SemanticHAR.png"
+  
+  - title: "Navigating Alignment for Non-Identical Client Class Sets: A Label Name-Anchored Federated Learning Framework"
+    authors: "Jiayun Zhang, <b>Xiyuan Zhang</b>, Xinyang Zhang, Dezhi Hong, Rajesh Gupta, Jingbo Shang"
+    venue: "KDD 2023"
+    paper_pdf: "https://arxiv.org/pdf/2301.00489.pdf"
+    image: "/assets/publications/FL.png"
   
   - title: "Towards Diverse and Coherent Augmentation for Time-Series Forecasting"
     authors: "<b>Xiyuan Zhang</b>, Ranak Roy Chowdhury, Jingbo Shang, Rajesh Gupta, Dezhi Hong"
