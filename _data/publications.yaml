@@ -17,7 +17,9 @@ papers:
     venue: "ICASSP 2023"
     image: "/assets/publications/STAug.png"
     paper_pdf: "/assets/publications/STAug_paper.pdf"
+    code: "https://github.com/xiyuanzh/STAug"
     poster: "/assets/publications/STAug_poster.pdf"
+    slide: "/assets/publications/STAug_slide.pdf"
     
   - title: "Async-HFL: Efficient and Robust Asynchronous Federated Learning in Hierarchical IoT Networks"
     authors: "Xiaofan Yu, Ludmila Cherkasova, Harsh Vardhan, Quanling Zhao, Emily Ekaireb, <b>Xiyuan Zhang</b>, Arya Mazumdar, Tajana Šimunić Rosing"
