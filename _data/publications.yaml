@@ -1,8 +1,8 @@
 papers:
 
-  - title: "Modeling Label Semantics Improves Activity Recognition"
-    authors: "<b>Xiyuan Zhang</b>, Ranak Roy Chowdhury, Dezhi Hong, Rajesh Gupta, Jingbo Shang"
-    venue: "Preprint"
+  - title: "Unleashing the Power of Shared Label Structures for Human Activity Recognition"
+    authors: "<b>Xiyuan Zhang</b>, Ranak Roy Chowdhury, Jiayun Zhang, Dezhi Hong, Rajesh Gupta, Jingbo Shang"
+    venue: "CIKM 2023"
     paper_pdf: "https://arxiv.org/pdf/2301.03462.pdf"
     image: "/assets/publications/SemanticHAR.png"
   
