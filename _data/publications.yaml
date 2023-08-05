@@ -4,7 +4,7 @@ papers:
     authors: "<b>Xiyuan Zhang</b>, Ranak Roy Chowdhury, Jiayun Zhang, Dezhi Hong, Rajesh Gupta, Jingbo Shang"
     venue: "CIKM 2023"
     paper_pdf: "https://arxiv.org/pdf/2301.03462.pdf"
-    image: "/assets/publications/SemanticHAR.png"
+    image: "/assets/publications/share.png"
   
   - title: "Navigating Alignment for Non-Identical Client Class Sets: A Label Name-Anchored Federated Learning Framework"
     authors: "Jiayun Zhang, <b>Xiyuan Zhang</b>, Xinyang Zhang, Dezhi Hong, Rajesh Gupta, Jingbo Shang"
