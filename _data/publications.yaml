@@ -6,6 +6,11 @@ papers:
     paper_pdf: "https://arxiv.org/pdf/2301.03462.pdf"
     image: "/assets/publications/share.png"
   
+  - title: "Physics-Informed Data Denoising for Real-Life Sensing Systems"
+    authors: "<b>Xiyuan Zhang</b, Xiaohan Fu, Diyan Teng, Chengyu Dong, Keerthivasan Vijayakumar, Jiayun Zhang, Ranak Roy Chowdhury, Junsheng Han, Dezhi Hong, Rashmi Kulkarni, Jingbo Shang, Rajesh Gupta"
+    venue: "SenSys 2023"
+    image: "/assets/publications/pilot.png"
+    
   - title: "Navigating Alignment for Non-Identical Client Class Sets: A Label Name-Anchored Federated Learning Framework"
     authors: "Jiayun Zhang, <b>Xiyuan Zhang</b>, Xinyang Zhang, Dezhi Hong, Rajesh Gupta, Jingbo Shang"
     venue: "KDD 2023"
