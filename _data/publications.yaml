@@ -3,7 +3,7 @@ papers:
   - title: "Unleashing the Power of Shared Label Structures for Human Activity Recognition"
     authors: "<b>Xiyuan Zhang</b>, Ranak Roy Chowdhury, Jiayun Zhang, Dezhi Hong, Rajesh Gupta, Jingbo Shang"
     venue: "CIKM 2023"
-    paper_pdf: "https://arxiv.org/pdf/2301.03462.pdf"
+    paper_pdf: "/assets/publications/SHARE.pdf"
     image: "/assets/publications/share.png"
   
   - title: "Physics-Informed Data Denoising for Real-Life Sensing Systems"
