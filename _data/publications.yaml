@@ -9,6 +9,7 @@ papers:
   - title: "Physics-Informed Data Denoising for Real-Life Sensing Systems"
     authors: "<b>Xiyuan Zhang</b>, Xiaohan Fu, Diyan Teng, Chengyu Dong, Keerthivasan Vijayakumar, Jiayun Zhang, Ranak Roy Chowdhury, Junsheng Han, Dezhi Hong, Rashmi Kulkarni, Jingbo Shang, Rajesh Gupta"
     venue: "SenSys 2023"
+    paper_pdf: "/assets/publications/PILOT.pdf"
     image: "/assets/publications/pilot.png"
     
   - title: "Navigating Alignment for Non-Identical Client Class Sets: A Label Name-Anchored Federated Learning Framework"
