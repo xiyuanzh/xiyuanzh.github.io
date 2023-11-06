@@ -45,10 +45,6 @@ title: Home
                 {% if paper.website %}
                   <a class="button" href="{{ paper.website }}" target="_blank">Website</a>
                 {% endif %}
-
-                {% if paper.pkg %}
-                  <a class="button" href="{{ paper.pkg }}" target="_blank">Package</a>
-                {% endif %}
    
                 {% if paper.code %}
                   <a class="button" href="{{ paper.code }}" target="_blank">Code</a>
@@ -64,6 +60,10 @@ title: Home
    
                 {% if paper.video %}
                   <a class="button" href="{{ paper.video }}" target="_blank">Video</a>
+                {% endif %}
+
+                {% if paper.pkg %}
+                  <a class="button" href="{{ paper.pkg }}" target="_blank">Package</a>
                 {% endif %}
                 
               </div>
