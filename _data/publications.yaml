@@ -5,6 +5,9 @@ papers:
     venue: "CIKM 2023"
     paper_pdf: "/assets/publications/SHARE.pdf"
     image: "/assets/publications/share.png"
+    code: "https://github.com/xiyuanzh/SHARE"
+    pkg: "https://pypi.org/project/semantichar/0.2/"
+    slide: "/assets/publications/SHARE_slides.pdf"
   
   - title: "Physics-Informed Data Denoising for Real-Life Sensing Systems"
     authors: "<b>Xiyuan Zhang</b>, Xiaohan Fu, Diyan Teng, Chengyu Dong, Keerthivasan Vijayakumar, Jiayun Zhang, Ranak Roy Chowdhury, Junsheng Han, Dezhi Hong, Rashmi Kulkarni, Jingbo Shang, Rajesh Gupta"
@@ -17,6 +20,8 @@ papers:
     venue: "KDD 2023"
     paper_pdf: "https://arxiv.org/pdf/2301.00489.pdf"
     image: "/assets/publications/FL.png"
+    code: "https://github.com/jiayunz/FedAlign"
+    video: "https://www.youtube.com/watch?app=desktop&v=kXkgOGwbbUs&feature=youtu.be"
   
   - title: "Towards Diverse and Coherent Augmentation for Time-Series Forecasting"
     authors: "<b>Xiyuan Zhang</b>, Ranak Roy Chowdhury, Jingbo Shang, Rajesh Gupta, Dezhi Hong"
