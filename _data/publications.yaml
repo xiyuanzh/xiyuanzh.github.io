@@ -38,6 +38,7 @@ papers:
     venue: "IoTDI 2023"
     paper_pdf: "https://arxiv.org/pdf/2301.06646.pdf"
     image: "/assets/publications/AsyncFL.png"
+    code: "https://github.com/Orienfish/Async-HFL"
 
   - title: "PrimeNet: Pre-training for Irregular Multivariate Time Series"
     authors: "Ranak Roy Chowdhury, Jiacheng Li, <b>Xiyuan Zhang</b>, Dezhi Hong, Rajesh Gupta, Jingbo Shang"
