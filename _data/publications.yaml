@@ -14,6 +14,7 @@ papers:
     venue: "SenSys 2023"
     paper_pdf: "/assets/publications/PILOT.pdf"
     image: "/assets/publications/pilot.png"
+    slide: "/assets/publications/PILOT_slides.pdf"
     
   - title: "Navigating Alignment for Non-Identical Client Class Sets: A Label Name-Anchored Federated Learning Framework"
     authors: "Jiayun Zhang, <b>Xiyuan Zhang</b>, Xinyang Zhang, Dezhi Hong, Rajesh Gupta, Jingbo Shang"
