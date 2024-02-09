@@ -3,7 +3,7 @@ papers:
   - title: "Large Language Models for Time Series: A Survey"
     authors: "<b>Xiyuan Zhang</b>, Ranak Roy Chowdhury, Rajesh Gupta, Jingbo Shang"
     venue: "Preprint"
-    paper_pdf: "https://arxiv.org/pdf/2402.01801.pdf"
+    paper_pdf: "/assets/publications/LLM4TS_survey.pdf"
     image: "/assets/publications/taxonomy.png"
     code: "https://github.com/xiyuanzh/awesome-llm-time-series"
 
