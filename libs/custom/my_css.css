@@ -112,7 +112,7 @@ h4 {
     line-height: 6.5rem;
     color: #222; }
   .navbar-link.active {
-    color: #33C3F0; }
+    color: #004CA6; }
   .has-docked-nav .navbar {
     position: fixed;
     top: 0;
@@ -186,8 +186,8 @@ h4 {
     border-bottom-width: 0; }
   .popover-link:hover {
     color: #fff;
-    background: #33C3F0; }
+    background: #004CA6; }
   .popover-link:hover,
   .popover-item:first-child .popover-link:hover:after {
-    border-bottom-color: #33C3F0; }
+    border-bottom-color: #004CA6; }
 }
