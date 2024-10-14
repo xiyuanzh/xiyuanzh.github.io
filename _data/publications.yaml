@@ -6,8 +6,7 @@ papers:
 
   - title: "Chronos: Learning the Language of Time Series"
     authors: "Abdul Fatir Ansari, Lorenzo Stella, Caner Turkmen, <b>Xiyuan Zhang</b>, Pedro Mercado, Huibin Shen, Oleksandr Shchur, Syama Sundar Rangapuram, Sebastian Pineda Arango, Shubham Kapoor, Jasper Zschiegner, Danielle C. Maddix, Michael W. Mahoney, Kari Torkkola, Andrew Gordon Wilson, Michael Bohlke-Schneider, Yuyang Wang"
-    venue: "Preprint"
-    award: "100MM+ downloads in six months"
+    venue: "Preprint <span style='color:#b40c54;'>(100MM+ downloads in six months)</span>"
     paper_pdf: "https://arxiv.org/pdf/2403.07815.pdf"
     image: "/assets/publications/chronos.png"
     code: "https://github.com/amazon-science/chronos-forecasting"
