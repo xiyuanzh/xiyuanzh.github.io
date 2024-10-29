@@ -3,6 +3,9 @@ papers:
     authors: "<b>Xiyuan Zhang</b>, Diyan Teng, Ranak Roy Chowdhury, Shuheng Li, Dezhi Hong, Rajesh K. Gupta, Jingbo Shang"
     venue: "NeurIPS 2024"
     image: "/assets/publications/unimts.png"
+    paper_pdf: "https://arxiv.org/pdf/2410.19818"
+    code: "https://github.com/xiyuanzh/UniMTS"
+    ckpt: "https://huggingface.co/xiyuanz/UniMTS"
 
   - title: "Chronos: Learning the Language of Time Series"
     authors: "Abdul Fatir Ansari, Lorenzo Stella, Caner Turkmen, <b>Xiyuan Zhang</b>, Pedro Mercado, Huibin Shen, Oleksandr Shchur, Syama Sundar Rangapuram, Sebastian Pineda Arango, Shubham Kapoor, Jasper Zschiegner, Danielle C. Maddix, Michael W. Mahoney, Kari Torkkola, Andrew Gordon Wilson, Michael Bohlke-Schneider, Yuyang Wang"
