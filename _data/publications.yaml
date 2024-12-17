@@ -18,6 +18,7 @@ papers:
     paper_pdf: "https://arxiv.org/pdf/2410.19818"
     code: "https://github.com/xiyuanzh/UniMTS"
     ckpt: "https://huggingface.co/xiyuanz/UniMTS"
+    poster: "/assets/publications/UniMTS_poster.pdf"
     slide: "/assets/publications/UniMTS_slides.pdf"
     selected: y
 
@@ -35,6 +36,8 @@ papers:
     venue: "IJCAI 2024, Survey Track"
     paper_pdf: "https://arxiv.org/pdf/2402.01801"
     image: "/assets/publications/taxonomy.png"
+    poster: "/assets/publications/survey_poster.pdf"
+    slide: "/assets/publications/survey_slides.pdf"
     code: "https://github.com/xiyuanzh/awesome-llm-time-series"
     selected: y
 
