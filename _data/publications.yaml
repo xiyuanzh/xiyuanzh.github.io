@@ -1,4 +1,16 @@
 papers:
+
+  - title: "Enhancing Foundation Models for Time Series Forecasting via Wavelet-based Tokenization"
+    authors: "Luca Masserano, Abdul Fatir Ansari, Boran Han, <b>Xiyuan Zhang</b>, Christos Faloutsos, Michael W. Mahoney, Andrew Gordon Wilson, Youngsuk Park, Syama Rangapuram, Danielle C. Maddix, Yuyang Wang"
+    venue: "Preprint"
+    image: "/assets/publications/wavetoken.png"
+    paper_pdf: "https://arxiv.org/pdf/2412.05244"
+
+  - title: "ZeroHAR: Sensor Context Augments Zero-Shot Wearable Action Recognition"
+    authors: "Ranak Roy Chowdhury, Ritvik Kapila, Ameya Panse, <b>Xiyuan Zhang</b>, Diyan Teng, Rashmi Kulkarni, Dezhi Hong, Rajesh K. Gupta, Jingbo Shang"
+    venue: "AAAI 2025"
+    image: "/assets/publications/zerohar.png"
+
   - title: "UniMTS: Unified Pre-training for Motion Time Series"
     authors: "<b>Xiyuan Zhang</b>, Diyan Teng, Ranak Roy Chowdhury, Shuheng Li, Dezhi Hong, Rajesh K. Gupta, Jingbo Shang"
     venue: "NeurIPS 2024"
