@@ -7,7 +7,7 @@ papers:
     paper_pdf: "https://arxiv.org/pdf/2412.05244"
 
   - title: "Matching Skeleton-based Activity Representations with Heterogeneous Signals for HAR"
-    authors: "Shuheng Li, Jiayun Zhang, Xiaohan Fu, Xiyuan Zhang, Jingbo Shang, Rajesh K. Gupta"
+    authors: "Shuheng Li, Jiayun Zhang, Xiaohan Fu, <b>Xiyuan Zhang</b>, Jingbo Shang, Rajesh K. Gupta"
     venue: "SenSys 2025"
     image: "/assets/publications/skeleton.png"
     paper_pdf: "https://arxiv.org/pdf/2503.14547"
