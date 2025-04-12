@@ -6,10 +6,17 @@ papers:
     image: "/assets/publications/wavetoken.png"
     paper_pdf: "https://arxiv.org/pdf/2412.05244"
 
+  - title: "Matching Skeleton-based Activity Representations with Heterogeneous Signals for HAR"
+    authors: "Shuheng Li, Jiayun Zhang, Xiaohan Fu, Xiyuan Zhang, Jingbo Shang, Rajesh K. Gupta"
+    venue: "SenSys 2025"
+    image: "/assets/publications/skeleton.png"
+    paper_pdf: "https://arxiv.org/pdf/2503.14547"
+
   - title: "ZeroHAR: Sensor Context Augments Zero-Shot Wearable Action Recognition"
     authors: "Ranak Roy Chowdhury, Ritvik Kapila, Ameya Panse, <b>Xiyuan Zhang</b>, Diyan Teng, Rashmi Kulkarni, Dezhi Hong, Rajesh K. Gupta, Jingbo Shang"
     venue: "AAAI 2025"
     image: "/assets/publications/zerohar.png"
+    paper_pdf: "/assets/publications/zerohar.pdf"
 
   - title: "UniMTS: Unified Pre-training for Motion Time Series"
     authors: "<b>Xiyuan Zhang</b>, Diyan Teng, Ranak Roy Chowdhury, Shuheng Li, Dezhi Hong, Rajesh K. Gupta, Jingbo Shang"
