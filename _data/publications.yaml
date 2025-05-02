@@ -2,7 +2,7 @@ papers:
 
   - title: "Enhancing Foundation Models for Time Series Forecasting via Wavelet-based Tokenization"
     authors: "Luca Masserano, Abdul Fatir Ansari, Boran Han, <b>Xiyuan Zhang</b>, Christos Faloutsos, Michael W. Mahoney, Andrew Gordon Wilson, Youngsuk Park, Syama Rangapuram, Danielle C. Maddix, Yuyang Wang"
-    venue: "Preprint"
+    venue: "ICML 2025"
     image: "/assets/publications/wavetoken.png"
     paper_pdf: "https://arxiv.org/pdf/2412.05244"
 
