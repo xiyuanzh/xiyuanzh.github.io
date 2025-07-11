@@ -1,5 +1,19 @@
 papers:
 
+  - title: "Does Multimodality Lead to Better Time Series Forecasting?"
+    authors: "Xiyuan Zhang, Boran Han, Haoyang Fang, Abdul Fatir Ansari, Shuai Zhang, Danielle C Maddix, Cuixiong Hu, Andrew Gordon Wilson, Michael W Mahoney, Hao Wang, Yan Liu, Huzefa Rangwala, George Karypis, Bernie Wang"
+    venue: "Preprint"
+    image: "/assets/publications/mmts.png"
+    paper_pdf: "https://arxiv.org/pdf/2506.21611"
+
+  - title: "Mlzero: A multi-agent system for end-to-end machine learning automation"
+    authors: "Haoyang Fang, Boran Han, Nick Erickson, <b>Xiyuan Zhang</b>, Su Zhou, Anirudh Dagar, Jiani Zhang, Ali Caner Turkmen, Cuixiong Hu, Huzefa Rangwala, Ying Nian Wu, Bernie Wang, George Karypis"
+    venue: "Preprint"
+    image: "/assets/publications/mlzero.png"
+    paper_pdf: "https://arxiv.org/pdf/2505.13941"
+    code: "https://github.com/autogluon/autogluon-assistant"
+    website: "https://project-mlzero.github.io/"
+
   - title: "Enhancing Foundation Models for Time Series Forecasting via Wavelet-based Tokenization"
     authors: "Luca Masserano, Abdul Fatir Ansari, Boran Han, <b>Xiyuan Zhang</b>, Christos Faloutsos, Michael W. Mahoney, Andrew Gordon Wilson, Youngsuk Park, Syama Rangapuram, Danielle C. Maddix, Yuyang Wang"
     venue: "ICML 2025"
@@ -27,7 +41,7 @@ papers:
     ckpt: "https://huggingface.co/xiyuanz/UniMTS"
     poster: "/assets/publications/UniMTS_poster.pdf"
     slide: "/assets/publications/UniMTS_slides.pdf"
-    selected: y
+    # selected: y
 
   - title: "Chronos: Learning the Language of Time Series"
     authors: "Abdul Fatir Ansari, Lorenzo Stella, Caner Turkmen, <b>Xiyuan Zhang</b>, Pedro Mercado, Huibin Shen, Oleksandr Shchur, Syama Sundar Rangapuram, Sebastian Pineda Arango, Shubham Kapoor, Jasper Zschiegner, Danielle C. Maddix, Michael W. Mahoney, Kari Torkkola, Andrew Gordon Wilson, Michael Bohlke-Schneider, Yuyang Wang"
@@ -36,7 +50,7 @@ papers:
     image: "/assets/publications/chronos.png"
     code: "https://github.com/amazon-science/chronos-forecasting"
     ckpt: "https://huggingface.co/collections/amazon/chronos-models-65f1791d630a8d57cb718444"
-    selected: y
+    # selected: y
 
   - title: "Large Language Models for Time Series: A Survey"
     authors: "<b>Xiyuan Zhang</b>, Ranak Roy Chowdhury, Rajesh Gupta, Jingbo Shang"
@@ -46,7 +60,7 @@ papers:
     poster: "/assets/publications/survey_poster.pdf"
     slide: "/assets/publications/survey_slides.pdf"
     code: "https://github.com/xiyuanzh/awesome-llm-time-series"
-    selected: y
+    # selected: y
 
   - title: "Unleashing the Power of Shared Label Structures for Human Activity Recognition"
     authors: "<b>Xiyuan Zhang</b>, Ranak Roy Chowdhury, Jiayun Zhang, Dezhi Hong, Rajesh Gupta, Jingbo Shang"

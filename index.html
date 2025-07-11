@@ -23,128 +23,62 @@ title: Home
 <!-- ========== PUBLICATIONS ========== -->
 <div class="docs-section" id="publications">
   <h4>Publications</h4>
-
-  <ul class="tab-nav">
-    <li><div class="button active" data-ref="#papers-selected">Selected</div></li>
-    <li><div class="button" data-ref="#papers-all">All</div></li>
-  </ul>
-
-  <div class="tab-content">
-    <div class="tab-pane active" id="papers-selected">
-      {% assign selected_papers = site.data.publications.papers | where: "selected", "y" %}
-      {% for paper in selected_papers %}
-      <div class="paper">
-          <div class="row">
-              <div class="four columns">
-                  <div class="paper-img">
-                      <img src='{{ site.baseurl }}{{ paper.image }}' width="100%">
-                  </div>
+  {% for paper in site.data.publications.papers %}
+  <div class="paper">
+      <div class="row">
+          <div class="four columns">
+              <div class="paper-img">
+                  <img src='{{ site.baseurl }}{{ paper.image }}' width="100%">
               </div>
-              <div class="eight columns">
-                  <!--               <div class="vertical-center"> -->
-                  <p class="title"><b>{{ paper.title }}</b></p>
-                  <p>{{ paper.authors }}</p>
-                  <p><i>{{ paper.venue }}</i></p>
-                  <p style="color: #b40c54;">{{ paper.award }}</p>
-                
-                  <div class="paper-buttons">
-                    {% if paper.paper_pdf %}
-                      <a class="button" href="{{ paper.paper_pdf | prepend: site.baseurl }}" target="_blank">Paper</a>
-                    {% endif %}
-      
-                    {% if paper.website %}
-                      <a class="button" href="{{ paper.website }}" target="_blank">Website</a>
-                    {% endif %}
-      
-                    {% if paper.code %}
-                      <a class="button" href="{{ paper.code }}" target="_blank">Code</a>
-                    {% endif %}
-      
-                    {% if paper.poster %}
-                      <a class="button" href="{{ paper.poster | prepend: site.baseurl }}" target="_blank">Poster</a>
-                    {% endif %}
+          </div>
+          <div class="eight columns">
+              <!--               <div class="vertical-center"> -->
+              <p class="title"><b>{{ paper.title }}</b></p>
+              <p>{{ paper.authors }}</p>
+              <p><i>{{ paper.venue }}</i></p>
+              <p style="color: #b40c54;">{{ paper.award }}</p>
+             
+              <div class="paper-buttons">
+                {% if paper.paper_pdf %}
+                  <a class="button" href="{{ paper.paper_pdf | prepend: site.baseurl }}" target="_blank">Paper</a>
+                {% endif %}
    
-                    {% if paper.slide %}
-                      <a class="button" href="{{ paper.slide | prepend: site.baseurl }}" target="_blank">Slide</a>
-                    {% endif %}
-      
-                    {% if paper.video %}
-                      <a class="button" href="{{ paper.video }}" target="_blank">Video</a>
-                    {% endif %}
+                {% if paper.website %}
+                  <a class="button" href="{{ paper.website }}" target="_blank">Website</a>
+                {% endif %}
+   
+                {% if paper.code %}
+                  <a class="button" href="{{ paper.code }}" target="_blank">Code</a>
+                {% endif %}
+   
+                {% if paper.poster %}
+                  <a class="button" href="{{ paper.poster | prepend: site.baseurl }}" target="_blank">Poster</a>
+                {% endif %}
+   
+                {% if paper.slide %}
+                  <a class="button" href="{{ paper.slide | prepend: site.baseurl }}" target="_blank">Slide</a>
+                {% endif %}
+   
+                {% if paper.video %}
+                  <a class="button" href="{{ paper.video }}" target="_blank">Video</a>
+                {% endif %}
 
-                    {% if paper.pkg %}
-                      <a class="button" href="{{ paper.pkg }}" target="_blank">Package</a>
-                    {% endif %}
+                {% if paper.pkg %}
+                  <a class="button" href="{{ paper.pkg }}" target="_blank">Package</a>
+                {% endif %}
 
-                    {% if paper.ckpt %}
-                      <a class="button" href="{{ paper.ckpt }}" target="_blank">Checkpoint</a>
-                    {% endif %}
+                {% if paper.ckpt %}
+                  <a class="button" href="{{ paper.ckpt }}" target="_blank">Checkpoint</a>
+                {% endif %}
                 
-                  </div>
-                  <!--               </div> -->
               </div>
+              <!--               </div> -->
           </div>
       </div>
-      {% endfor %}
-    </div>
-
-    <div class="tab-pane" id="papers-all">
-      {% for paper in site.data.publications.papers %}
-        <div class="paper">
-          <div class="row">
-              <div class="four columns">
-                  <div class="paper-img">
-                      <img src='{{ site.baseurl }}{{ paper.image }}' width="100%">
-                  </div>
-              </div>
-              <div class="eight columns">
-                  <!--               <div class="vertical-center"> -->
-                  <p class="title"><b>{{ paper.title }}</b></p>
-                  <p>{{ paper.authors }}</p>
-                  <p><i>{{ paper.venue }}</i></p>
-                  <p style="color: #b40c54;">{{ paper.award }}</p>
-                
-                  <div class="paper-buttons">
-                    {% if paper.paper_pdf %}
-                      <a class="button" href="{{ paper.paper_pdf | prepend: site.baseurl }}" target="_blank">Paper</a>
-                    {% endif %}
-      
-                    {% if paper.website %}
-                      <a class="button" href="{{ paper.website }}" target="_blank">Website</a>
-                    {% endif %}
-      
-                    {% if paper.code %}
-                      <a class="button" href="{{ paper.code }}" target="_blank">Code</a>
-                    {% endif %}
-      
-                    {% if paper.poster %}
-                      <a class="button" href="{{ paper.poster | prepend: site.baseurl }}" target="_blank">Poster</a>
-                    {% endif %}
-  
-                    {% if paper.slide %}
-                      <a class="button" href="{{ paper.slide | prepend: site.baseurl }}" target="_blank">Slide</a>
-                    {% endif %}
-      
-                    {% if paper.video %}
-                      <a class="button" href="{{ paper.video }}" target="_blank">Video</a>
-                    {% endif %}
-
-                    {% if paper.pkg %}
-                      <a class="button" href="{{ paper.pkg }}" target="_blank">Package</a>
-                    {% endif %}
-
-                    {% if paper.ckpt %}
-                      <a class="button" href="{{ paper.ckpt }}" target="_blank">Checkpoint</a>
-                    {% endif %}
-                
-                  </div>
-                  <!--               </div> -->
-              </div>
-          </div>
-      </div>
-      {% endfor %}
-    </div>
-
+  </div>
+  {% endfor %}
+  <!--    </div>
+    </div> -->
 </div>
  
 <!-- 
@@ -222,7 +156,7 @@ title: Home
   </p>
 
   <p>
-    <b>Conference Reviewer</b>:  ICML'23'24, NeurIPS'23'24 (<span style='color:#b40c54;'>Top Reviewer</span>), ICLR'24'25, AAAI'23'24'25, WWW'24, ICASSP'24 <br/>
+    <b>Conference Reviewer</b>:  ICML'23'24'25, NeurIPS'23'24 (<span style='color:#b40c54;'>Top Reviewer</span>)'25, ICLR'24'25, AAAI'23'24'25, WWW'24, ICASSP'24 <br/>
     <b>Journal Reviewer</b>: International Journal of Forecasting (IJF), ACM Transactions on Intelligent Systems and Technology (TIST) <br/>
     <b>Workshop Reviewer</b>: NeurIPS'24 TSALM Workshop, CPS-IoT'25 FMSys Workshop, KDD'25 SKnow-LLM Workshop
   </p>
