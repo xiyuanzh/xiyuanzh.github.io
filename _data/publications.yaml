@@ -1,7 +1,7 @@
 papers:
 
   - title: "Does Multimodality Lead to Better Time Series Forecasting?"
-    authors: "Xiyuan Zhang, Boran Han, Haoyang Fang, Abdul Fatir Ansari, Shuai Zhang, Danielle C Maddix, Cuixiong Hu, Andrew Gordon Wilson, Michael W Mahoney, Hao Wang, Yan Liu, Huzefa Rangwala, George Karypis, Bernie Wang"
+    authors: "<b>Xiyuan Zhang</b>, Boran Han, Haoyang Fang, Abdul Fatir Ansari, Shuai Zhang, Danielle C Maddix, Cuixiong Hu, Andrew Gordon Wilson, Michael W Mahoney, Hao Wang, Yan Liu, Huzefa Rangwala, George Karypis, Bernie Wang"
     venue: "Preprint"
     image: "/assets/publications/mmts.png"
     paper_pdf: "https://arxiv.org/pdf/2506.21611"
