@@ -1,6 +1,6 @@
 papers:
 
-  - title: "Does Multimodality Lead to Better Time Series Forecasting?"
+  - title: "When Does Multimodality Lead to Better Time Series Forecasting?"
     authors: "<b>Xiyuan Zhang</b>, Boran Han, Haoyang Fang, Abdul Fatir Ansari, Shuai Zhang, Danielle C Maddix, Cuixiong Hu, Andrew Gordon Wilson, Michael W Mahoney, Hao Wang, Yan Liu, Huzefa Rangwala, George Karypis, Bernie Wang"
     venue: "Preprint"
     image: "/assets/publications/mmts.png"
@@ -34,6 +34,13 @@ papers:
     venue: "ICML 2025"
     image: "/assets/publications/wavetoken.png"
     paper_pdf: "https://arxiv.org/pdf/2412.05244"
+  
+  - title: "SensorChat: Answering Qualitative and Quantitative Questions during Long-term Multimodal Sensor Interactions"
+    authors: "Xiaofan Yu, Lanxiang Hu, Benjamin Reichman, Dylan Chu, Rushil Chandrupatla, <b>Xiyuan Zhang</b>, Larry Heck, Tajana S. Rosing"
+    venue: "IMWUT 2025"
+    image: "/assets/publications/sensorchat.png"
+    paper_pdf: "https://arxiv.org/pdf/2502.02883"
+    code: "https://github.com/Orienfish/SensorChat"
 
   - title: "Matching Skeleton-based Activity Representations with Heterogeneous Signals for HAR"
     authors: "Shuheng Li, Jiayun Zhang, Xiaohan Fu, <b>Xiyuan Zhang</b>, Jingbo Shang, Rajesh K. Gupta"
