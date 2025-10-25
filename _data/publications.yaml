@@ -6,9 +6,24 @@ papers:
     image: "/assets/publications/mmts.png"
     paper_pdf: "https://arxiv.org/pdf/2506.21611"
 
+  - title: "Chronos-2: From Univariate to Universal Forecasting"
+    authors: "Abdul Fatir Ansari, Oleksandr Shchur, Jaris Küken, Andreas Auer, Boran Han, Pedro Mercado, Syama Sundar Rangapuram, Huibin Shen, Lorenzo Stella, <b>Xiyuan Zhang</b>, Mononito Goswami, Shubham Kapoor, Danielle C. Maddix, Pablo Guerron, Tony Hu, Junming Yin, Nick Erickson, Prateek Mutalik Desai, Hao Wang, Huzefa Rangwala, George Karypis, Yuyang Wang, Michael Bohlke-Schneider"
+    venue: "Technical Report"
+    image: "/assets/publications/chronos2.png"
+    paper_pdf: "https://www.arxiv.org/pdf/2510.15821"
+    code: "https://github.com/amazon-science/chronos-forecasting"
+
+  - title: "Mitra: Mixed Synthetic Priors for Enhancing Tabular Foundation Models"
+    authors: "<b>Xiyuan Zhang</b>, Danielle C. Maddix, Junming Yin, Nick Erickson, Abdul Fatir Ansari, Boran Han, Shuai Zhang, Leman Akoglu, Christos Faloutsos, Michael W. Mahoney, Cuixiong Hu, Huzefa Rangwala, George Karypis, Bernie Wang"
+    venue: "NeurIPS 2025 <span style='color:#b40c54;'>(3MM+ downloads in 3 months)</span>"
+    image: "/assets/publications/mitra.png"
+    code: "https://auto.gluon.ai/dev/tutorials/tabular/tabular-foundational-models.html"
+    ckpt: "https://huggingface.co/autogluon/mitra-regressor"
+    selected: y
+
   - title: "Mlzero: A multi-agent system for end-to-end machine learning automation"
     authors: "Haoyang Fang, Boran Han, Nick Erickson, <b>Xiyuan Zhang</b>, Su Zhou, Anirudh Dagar, Jiani Zhang, Ali Caner Turkmen, Cuixiong Hu, Huzefa Rangwala, Ying Nian Wu, Bernie Wang, George Karypis"
-    venue: "Preprint"
+    venue: "NeurIPS 2025"
     image: "/assets/publications/mlzero.png"
     paper_pdf: "https://arxiv.org/pdf/2505.13941"
     code: "https://github.com/autogluon/autogluon-assistant"
@@ -41,16 +56,16 @@ papers:
     ckpt: "https://huggingface.co/xiyuanz/UniMTS"
     poster: "/assets/publications/UniMTS_poster.pdf"
     slide: "/assets/publications/UniMTS_slides.pdf"
-    # selected: y
+    selected: y
 
   - title: "Chronos: Learning the Language of Time Series"
     authors: "Abdul Fatir Ansari, Lorenzo Stella, Caner Turkmen, <b>Xiyuan Zhang</b>, Pedro Mercado, Huibin Shen, Oleksandr Shchur, Syama Sundar Rangapuram, Sebastian Pineda Arango, Shubham Kapoor, Jasper Zschiegner, Danielle C. Maddix, Michael W. Mahoney, Kari Torkkola, Andrew Gordon Wilson, Michael Bohlke-Schneider, Yuyang Wang"
-    venue: "TMLR <span style='color:#b40c54;'>(100MM+ downloads in six months)</span>"
+    venue: "TMLR <span style='color:#b40c54;'>(100MM+ downloads in 6 months)</span>"
     paper_pdf: "https://arxiv.org/pdf/2403.07815.pdf"
     image: "/assets/publications/chronos.png"
     code: "https://github.com/amazon-science/chronos-forecasting"
     ckpt: "https://huggingface.co/collections/amazon/chronos-models-65f1791d630a8d57cb718444"
-    # selected: y
+    selected: y
 
   - title: "Large Language Models for Time Series: A Survey"
     authors: "<b>Xiyuan Zhang</b>, Ranak Roy Chowdhury, Rajesh Gupta, Jingbo Shang"
@@ -60,7 +75,7 @@ papers:
     poster: "/assets/publications/survey_poster.pdf"
     slide: "/assets/publications/survey_slides.pdf"
     code: "https://github.com/xiyuanzh/awesome-llm-time-series"
-    # selected: y
+    selected: y
 
   - title: "Unleashing the Power of Shared Label Structures for Human Activity Recognition"
     authors: "<b>Xiyuan Zhang</b>, Ranak Roy Chowdhury, Jiayun Zhang, Dezhi Hong, Rajesh Gupta, Jingbo Shang"
