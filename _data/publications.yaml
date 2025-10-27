@@ -17,6 +17,7 @@ papers:
     authors: "<b>Xiyuan Zhang</b>, Danielle C. Maddix, Junming Yin, Nick Erickson, Abdul Fatir Ansari, Boran Han, Shuai Zhang, Leman Akoglu, Christos Faloutsos, Michael W. Mahoney, Cuixiong Hu, Huzefa Rangwala, George Karypis, Bernie Wang"
     venue: "NeurIPS 2025 <span style='color:#b40c54;'>(3MM+ downloads in 3 months)</span>"
     image: "/assets/publications/mitra.png"
+    paper_pdf: "https://arxiv.org/pdf/2510.21204"
     code: "https://auto.gluon.ai/dev/tutorials/tabular/tabular-foundational-models.html"
     ckpt: "https://huggingface.co/autogluon/mitra-regressor"
     selected: y
