@@ -1,4 +1,15 @@
 papers:
+  - title: "Understanding Transformers for Time Series: Rank Structure, Flow-of-ranks, and Compressibility"
+    authors: "Annan Yu, Danielle C Maddix, Boran Han, <b>Xiyuan Zhang</b>, Abdul Fatir Ansari, Oleksandr Shchur, Christos Faloutsos, Andrew Gordon Wilson, Michael W Mahoney, Yuyang Wang"
+    venue: "ICLR 2026"
+    image: "/assets/publications/ts_rank.png"
+    paper_pdf: "https://arxiv.org/pdf/2510.03358"
+  
+  - title: "Understanding the Implicit Biases of Design Choices for Time Series Foundation Models"
+    authors: "Annan Yu, Danielle C Maddix, Boran Han, <b>Xiyuan Zhang</b>, Abdul Fatir Ansari, Oleksandr Shchur, Christos Faloutsos, Andrew Gordon Wilson, Michael W Mahoney, Yuyang Wang"
+    venue: "ICLR 2026"
+    image: "/assets/publications/ts_bias.png"
+    paper_pdf: "https://arxiv.org/pdf/2510.19236"
 
   - title: "When Does Multimodality Lead to Better Time Series Forecasting?"
     authors: "<b>Xiyuan Zhang</b>, Boran Han, Haoyang Fang, Abdul Fatir Ansari, Shuai Zhang, Danielle C Maddix, Cuixiong Hu, Andrew Gordon Wilson, Michael W Mahoney, Hao Wang, Yan Liu, Huzefa Rangwala, George Karypis, Bernie Wang"
