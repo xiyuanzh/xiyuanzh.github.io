@@ -10,6 +10,18 @@ papers:
     venue: "ICLR 2026"
     image: "/assets/publications/ts_bias.png"
     paper_pdf: "https://arxiv.org/pdf/2510.19236"
+  
+  - title: "SenTSR-Bench: Thinking with Injected Knowledge for Time-Series Reasoning"
+    authors: "Zelin He, Boran Han, <b>Xiyuan Zhang</b>, Shuai Zhang, Haotian Lin, Qi Zhu, Haoyang Fang, Danielle C Maddix, Abdul Fatir Ansari, Akash Chandrayan, Abhinav Pradhan, Bernie Wang, Matthew Reimherr"
+    venue: "AISTATS 2026"
+    image: "/assets/publications/sentsr.png"
+    paper_pdf: "https://arxiv.org/pdf/2602.19455"
+  
+  - title: "HetRL: Efficient Reinforcement Learning for LLMs in Heterogeneous Environments"
+    authors: "Yongjun He, Shuai Zhang, Jiading Gai, <b>Xiyuan Zhang</b>, Boran Han, Bernie Wang, Huzefa Rangwala, George Karypis"
+    venue: "MLSys 2026"
+    image: "/assets/publications/hetrl.png"
+    paper_pdf: "https://arxiv.org/pdf/2512.12476"
 
   - title: "When Does Multimodality Lead to Better Time Series Forecasting?"
     authors: "<b>Xiyuan Zhang</b>, Boran Han, Haoyang Fang, Abdul Fatir Ansari, Shuai Zhang, Danielle C Maddix, Cuixiong Hu, Andrew Gordon Wilson, Michael W Mahoney, Hao Wang, Yan Liu, Huzefa Rangwala, George Karypis, Bernie Wang"
